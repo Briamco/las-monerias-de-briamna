@@ -1,5 +1,6 @@
 'use client'
 import Image from 'next/image'
+import Link from 'next/link';
 import { useEffect, useState } from "react";
 
 type CartItem = {
@@ -60,7 +61,7 @@ export default function Cart() {
             )
         }
       </div>
-      <button className="btn w-full text-2xl">Hacer Pedido</button>
+      <Link href='/cart' className='btn text-center w-full text-2xl'>Hacer Pedido</Link>
     </div>
   );
 }
