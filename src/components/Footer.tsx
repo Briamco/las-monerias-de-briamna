@@ -5,7 +5,7 @@ export default function Footer() {
       <form className="flex flex-col items-center justify-center space-y-[10px]">
         <input type="text" placeholder="Josh G." />
         <textarea placeholder="Escribe algo aqui..."></textarea>
-        <button className="text-[16px] w-full">Contactar</button>
+        <button className="btn text-[16px] w-full">Contactar</button>
       </form>
     </footer>
   )

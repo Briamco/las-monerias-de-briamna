@@ -20,10 +20,10 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
   @apply bg-white rounded-[10px] p-[10px] min-w-[250px];
 }
 
-button {
+.btn {
   @apply bg-rose-400 text-white font-bold py-[10px] px-[16px] rounded-[10px];
 }
 
-button:hover {
+.btn:hover {
   @apply bg-rose-500 cursor-pointer;
 }

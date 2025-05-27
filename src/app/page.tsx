@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Page() {
   return (
@@ -12,7 +13,7 @@ export default function Page() {
           <p className='text-2xl w-[414px] text-center'>
             ✨ Detalles únicos, hechos con amor Cada pieza es hecha a mano para llenar tu espacio de ternura.
           </p>
-          <button className='text-4xl mt-6'>Ver Productos</button>
+          <Link href='/shop' className='btn text-2xl mt-6 px-[16px] py-[10px]'>Ver Productos</Link>
         </div>
       </header>
       <div className="flex w-full items-center justify-around my-16">
