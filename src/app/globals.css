@@ -13,7 +13,7 @@ body {
   min-height: 100dvh;
   grid-template-rows: 
     auto 1fr auto;
-  @apply mx-10 my-4 space-y-[21px];
+  @apply mx-2 md:mx-10 my-2 md:my-4 space-y-[21px];
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="number"], input[type="search"], input[type="tel"], input[type="url"], textarea, select {
