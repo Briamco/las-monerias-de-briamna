@@ -25,7 +25,7 @@ export default function Page() {
       <header className="flex flex-col md:flex-row justify-between bg-neutral-400 w-full md:h-[500px] rounded-[10px] py-10 px-4 md:px-20">
         <div></div>
         <div className="flex flex-col space-y-[7px] items-center justify-center h-full text-white">
-          <h1 className='font-bold text-2xl md:text-4xl'>
+          <h1 className='font-bold text-2xl text-center md:text-left md:text-4xl'>
             Las monerías de Briamna
           </h1>
           <p className='text-md w-full md:text-2xl md:w-[414px] text-center'>
